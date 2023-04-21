@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "NanumSquareNeo-Variable";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --main-font: "NanumSquareNeo-Variable";
+}
+
+section,
+body,
+div,
+article,
+h1,
+h2,
+h3 {
+  margin: 0;
+  padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+a {
+  font: unset;
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+  color: black;
+}
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+a:active {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.wrapper {
+  padding: 50px;
+  box-shadow: inset 0 0 10px red;
+  margin: 0 auto;
+}
+
+h1 {
+  width: auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 60px;
+  font-family: var(--main-font);
+  /* background-color: blue; */
+
+  box-shadow: inset 0 0 10px darkviolet;
+  text-align: center;
+}
+
+.index {
+  display: flex;
+  box-shadow: inset 0 0 10px blue;
+}
+
+.list {
+  padding: 20px;
+  box-shadow: inset 0 0 10px green;
+}
+
+.contentWrapper {
+  box-shadow: inset 0 0 10px sienna;
+  padding: 50px;
+}
+.content {
+  box-shadow: inset 0 0 50px orangered;
+  min-width: 800px;
+}
+
+.contentTitle {
+  box-shadow: inset 0 0 30px yellow;
+  margin-bottom: 20px;
+  font-size: 40px;
+  font-family: var(--main-font);
+}
+
+.contentName {
+  font-size: 32px;
+  box-shadow: inset 0 0 10px yellowgreen;
+  margin-bottom: 30px;
+}
+
+.contentList {
+  box-shadow: inset 0 0 10px green;
+  width: 100%;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-bottom: 100px;
+}
+
+.contentItem {
+  box-shadow: inset 0 0 10px skyblue;
+  /* background-color: skyblue; */
+  margin: 0 auto;
+  width: 250px;
+  margin-bottom: 30px;
+  text-align: center;
+  /* color: bisque;
+  font-size: 30px; */
+}
+
+.contentLink {
+  box-shadow: inset 0 0 10px royalblue;
+  background-color: aqua;
+  color: red;
+  font-size: 24px;
+}
+
+.contentLink :link {
+  text-decoration: none;
+  color: red;
+}
+
+.contentLink:visited {
+}
+
+.contentLink:active {
+}
+.contentLink:hover {
+}
+.contentImg {
+  display: block;
+  box-shadow: inset 0 0 10px blue;
+  /* background-color: blue; */
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
