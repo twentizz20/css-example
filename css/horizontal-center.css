@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "NanumSquareNeo-Variable";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2")
+    format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --main-font: "NanumSquareNeo-Variable";
+}
+
+.wrapper {
+  padding: 50px;
+  box-shadow: inset 0 0 10px red;
+  margin: 0 auto;
+  display: relative;
+}
+
+h1 {
+  width: auto;
+  margin-top: 40px;
+  margin-bottom: 30px;
+  font-size: 60px;
+  font-family: var(--main-font);
+  /* background-color: blue; */
+
+  /* box-shadow: inset 0 0 10px darkviolet; */
+  text-align: center;
+}
+
+.index {
+  display: flex;
+  box-shadow: inset 0 0 10px blue;
+}
+
+.list {
+  /* display: flex; */
+  padding: 20px;
+  box-shadow: inset 0 0 10px green;
+}
+
+.listTitle {
+  font-family: var(--main-font);
+  font-size: 24px;
+}
+
+.listUl {
+  font-family: var(--main-font);
+  font-size: 20px;
+  padding: 5px;
+}
+
+.listLi {
+  margin: 5px;
+}
+
+.contentWrapper {
+  box-shadow: inset 0 0 10px sienna;
+  padding: 50px;
+}
+
+.back-button {
+  background-color: blueviolet;
+  width: 50px;
+  height: 50px;
+  margin-left: auto;
+  display: block;
+  display: fixed;
+  bottom: 50px;
+  right: 50px;
+}
+
+.hl-title {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.hl-title-small {
+  font-size: 24px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.hloneparent {
+  background-color: red;
+}
+.hlonechild {
+  background-color: aquamarine;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.hltwoparent {
+  background-color: red;
+  width: 300px;
+  height: 300px;
+}
+
+.hltwochild {
+  background-color: aquamarine;
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}

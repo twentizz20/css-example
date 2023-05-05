@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css 이것저것</title>
+    <link rel="stylesheet" href="../css/reset.css" />
+    <link rel="stylesheet" href="../css/a11y-hidden.css" />
+    <link rel="stylesheet" href="../css/horizontal-right.css" />
+  </head>
+  <body>
+    <section class="wrapper">
+      <h1>CSS 이것저것</h1>
+      <section class="index">
+        <article class="list">
+          <a class="listTitle" href="#align">정렬</a>
+          <ul class="listUl">
+            <li class="listLi">
+              <a class="listContent" href="#horizontal">가로정렬</a>
+            </li>
+            <li class="listLi">
+              <a class="listContent" href="#vertical">세로정렬</a>
+            </li>
+          </ul>
+        </article>
+      </section>
+      <section class="contentWrapper">
+        <article class="hlcontent">
+          <h2 class="hl-title">가로가운데정렬</h2>
+          <p class="hl-title-small">부모의 크기가 정해지지 않은 경우</p>
+          <div class="hloneparent">
+            높이가 0일때는 화면에 안 나오기 때문에 쓰는 글
+            <div class="hlonechild">
+              높이가 0일때는 화면에 안 나오기 때문에 쓰는 글
+            </div>
+          </div>
+
+          <p class="hl-title-small">부모의 크기가 정해진 경우</p>
+          <div class="hltwoparent">
+            <div class="hltwochild">높이 0이면 안나와서 쓰는 글</div>
+          </div>
+        </article>
+      </section>
+      <a class="back-button" href="index.html">&lt;</a>
+    </section>
+  </body>
+</html>
