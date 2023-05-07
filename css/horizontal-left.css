@@ -40,22 +40,22 @@ h1 {
   box-shadow: inset 0 0 10px green;
 }
 
-.listTitle {
+.list-title {
   font-family: var(--main-font);
   font-size: 24px;
 }
 
-.listUl {
+.list-ul {
   font-family: var(--main-font);
   font-size: 20px;
   padding: 5px;
 }
 
-.listLi {
+.list-li {
   margin: 5px;
 }
 
-.contentWrapper {
+.content-wrapper {
   box-shadow: inset 0 0 10px sienna;
   padding: 50px;
 }
@@ -81,21 +81,65 @@ h1 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.hloneparent {
-  background-color: red;
+.hl-block-parent-one {
+  background-color: tomato;
 }
-.hlonechild {
+.hl-block-child-one {
   background-color: aquamarine;
   width: 300px;
 }
 
-.hltwoparent {
+.hl-block-parent-two {
+  background-color: coral;
+}
+
+.hl-block-child-two {
+  background-color: aquamarine;
+}
+
+.hl-block-parent-three {
+  background-color: coral;
+}
+
+.hl-block-child-three {
+  background-color: aquamarine;
+  width: 300px;
+}
+.hl-block-parent-four {
+  background-color: coral;
+}
+
+.hl-block-child-four {
+  background-color: aquamarine;
+  width: 300px;
+}
+.hl-block-parent-five {
+  background-color: coral;
+}
+
+.hl-block-child-five {
+  background-color: aquamarine;
+  width: 300px;
+}
+
+.hl-inline-parent {
+  background-color: tomato;
+}
+
+.hl-inline-parent a {
+  background-color: aquamarine;
+  width: 700px;
+  /* margin: 0 auto; */
+  /* text-align: center; */
+}
+
+.hl-fix-parent {
   background-color: red;
   width: 300px;
   height: 300px;
 }
 
-.hltwochild {
+.hl-fix-child {
   background-color: aquamarine;
   width: 100px;
   height: 100px;

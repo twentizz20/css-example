@@ -14,31 +14,85 @@
       <h1>CSS 이것저것</h1>
       <section class="index">
         <article class="list">
-          <a class="listTitle" href="#align">정렬</a>
-          <ul class="listUl">
-            <li class="listLi">
-              <a class="listContent" href="#horizontal">가로정렬</a>
+          <a class="list-title" href="#align">정렬</a>
+          <ul class="list-ul">
+            <li class="list-li">
+              <a class="list-content" href="#horizontal">가로정렬</a>
             </li>
-            <li class="listLi">
-              <a class="listContent" href="#vertical">세로정렬</a>
+            <li class="list-li">
+              <a class="list-content" href="#vertical">세로정렬</a>
             </li>
           </ul>
         </article>
       </section>
-      <section class="contentWrapper">
-        <article class="hlcontent">
+      <section class="content-wrapper">
+        <article class="hl-content">
           <h2 class="hl-title">가로왼쪽정렬</h2>
+          <p>
+            일반적으로 html은 왼쪽정렬이기 때문에 특별히 아무것도 하지 않아도
+            된다
+          </p>
           <p class="hl-title-small">부모의 크기가 정해지지 않은 경우</p>
-          <div class="hloneparent">
-            높이가 0일때는 화면에 안 나오기 때문에 쓰는 글
-            <div class="hlonechild">
-              높이가 0일때는 화면에 안 나오기 때문에 쓰는 글
+          <p>블록</p>
+          <div class="hl-block-parent-one">
+            높이가 0이면 아무것도 안나오기 때문에 쓴 글
+            <p>부모div박스<br />{background-color:}</p>
+            <div class="hl-block-child-one">
+              높이 0 방지글
+              <p>
+                자식div박스<br />
+                {background-color:;width:300px;}
+              </p>
             </div>
+          </div>
+          <p>아무것도 없을 때</p>
+          <div class="hl-block-parent-two">
+            <div class="hl-block-child-two">둘 다 배경색만 주었을 때</div>
+          </div>
+          <p>아무것도 없을 때</p>
+          <div class="hl-block-parent-three">
+            <div class="hl-block-child-three">
+              <p>
+                자식div박스<br />
+                {background-color:;width:300px;}
+              </p>
+            </div>
+          </div>
+          <p>위아래 내용</p>
+          <div class="hl-block-parent-four">
+            <p>위에 내용이 있다</p>
+            <div class="hl-block-child-four">
+              <p>
+                자식div박스<br />
+                {background-color:;width:300px;}
+              </p>
+            </div>
+            <p>아래에도 내용이 있다</p>
+          </div>
+          <p>아래에만 내용</p>
+          <div class="hl-block-parent-five">
+            <div class="hl-block-child-five">
+              높이 0 방지글
+              <p>
+                자식div박스<br />
+                {background-color:;width:300px;}
+              </p>
+            </div>
+            <p>아래에 내용</p>
+          </div>
+          <p>인라인</p>
+          <div class="hl-inline-parent">
+            <p>p태그</p>
+            <p>인라인요소는 높이가 없으므로 블록과 같은 방법으로 정렬 안됨</p>
+            <p>역시 왼쪽정렬이 기본값이므로 아무것도 안해도 된다.</p>
+            <p></p>
+            <a>a태그</a>
+            <img />
           </div>
 
           <p class="hl-title-small">부모의 크기가 정해진 경우</p>
-          <div class="hltwoparent">
-            <div class="hltwochild">높이 0이면 안나와서 쓰는 글</div>
+          <div class="hl-fix-parent">
+            <div class="hl-fix-child">높이 0이면 안나와서 쓰는 글</div>
           </div>
         </article>
       </section>
